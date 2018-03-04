@@ -1,5 +1,11 @@
 # ActFramework Starter Support
 
+**1.8.0** 4/Mar/2018
+
+* update to act-1.8.0
+* Copy template files and all files inside `conf` dir into zip package #2
+* Move `asset` into `classes/` dir #1
+
 **1.7.9** 20/Feb/2018
 
 * update to act-1.7.0

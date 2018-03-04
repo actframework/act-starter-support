@@ -41,14 +41,19 @@ under the License.
       <outputDirectory>.</outputDirectory>
       <includes>
         <include>classes/**/*.properties</include>
-        <include>classes/**/route*.*</include>
-      </includes>
-    </fileSet>
-    <fileSet>
-      <directory>${project.build.directory}/classes</directory>
-      <outputDirectory>.</outputDirectory>
-      <includes>
-        <include>asset/**</include>
+        <include>classes/**/*.conf</include>
+        <include>classes/**/*.json</include>
+        <include>classes/**/*.yaml</include>
+        <include>classes/**/*.yml</include>
+        <include>classes/**/*.xml</include>
+        <include>classes/conf/**</include>
+        <include>classes/asset/**</include>
+        <include>classes/beetl/**</include>
+        <include>classes/freemarker/**</include>
+        <include>classes/mustache/**</include>
+        <include>classes/rythm/**</include>
+        <include>classes/thymeleaf/**</include>
+        <include>classes/velocity/**</include>
       </includes>
     </fileSet>
     <fileSet>
