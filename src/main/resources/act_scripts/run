@@ -11,7 +11,7 @@ PROFILE=
 GROUP=
 SYS_PROP=
 HELP=0
-JAVA_OPTS="$JAVA_OPTS -server -Xms512m -Xmx2g -XX:MaxPermSize=128M"
+JAVA_OPTS="$JAVA_OPTS -server -Xms${vmargs.heap.init} -Xmx${vmargs.heap.max} -XX:MaxPermSize=128M ${vmargs.extended}"
 # As long as there is at least one more argument, keep looping
 while [[ $# -gt 0 ]]; do
     key="$1"
@@ -46,7 +46,7 @@ while [[ $# -gt 0 ]]; do
         echo '     -d --debug           enable remote debugging'
         echo '     --debug-port <port>  specify debug port (if not specified then debug port is 5005)'
         echo '     -p --profile         specify the profile to start the app'
-        echo '     -p --group           specify the node group'
+        echo '     -g --group           specify the node group'
         echo '     -Dprop=val           specify any JVM system properties'
         echo '     -h --help            display this help message'
         HELP=1

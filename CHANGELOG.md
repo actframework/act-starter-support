@@ -1,5 +1,10 @@
 # ActFramework Starter Support
 
+**1.8.1** 25/Mar/2018
+* Make `-Xms` and `-Xmx` be configurable #4
+* maven build report error when running in a environment without git installed #3
+* Add dockerfile
+
 **1.8.0** 4/Mar/2018
 
 * update to act-1.8.0
