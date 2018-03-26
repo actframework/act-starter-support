@@ -23,13 +23,12 @@
   <parent>
     <groupId>org.actframework</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.2</version>
+    <version>1.8.3</version>
   </parent>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <dockerfile-maven-version>1.4</dockerfile-maven-version>
     <scm.url>git@github.com:actframework/act-starter-support.git</scm.url>
   </properties>
 

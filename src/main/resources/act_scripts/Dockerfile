@@ -1,5 +1,4 @@
-FROM openjdk:8-jre-alpine
-RUN apk add --no-cache bash gawk sed grep bc coreutils
+FROM actframework/openjdk:8-jre
 ENV APPHOME=/var/act-app
 RUN mkdir -p $APPHOME
 WORKDIR $APPHOME
