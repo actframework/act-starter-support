@@ -1,8 +1,12 @@
 # ActFramework Starter Support
 
+**1.8.3** 8/Apr/2018
+* Update parent to 1.8.7
+* Add configuration properties templates #7
+
 **1.8.2** 27/Mar/2018
 * Update parent to 1.8.3
-* Update Dockerfile - use actframework/openjdk:8-jre as base
+* Update Dockerfile - use actframework/openjdk:8-jre as base #6
 
 **1.8.1** 25/Mar/2018
 * Make `-Xms` and `-Xmx` be configurable #4
