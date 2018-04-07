@@ -1,5 +1,8 @@
 # ActFramework Starter Support
 
+**1.8.4** 8/Apr/2018
+* Add run_dev, run_prod scripts #8
+
 **1.8.3** 8/Apr/2018
 * Update parent to 1.8.7
 * Add configuration properties templates #7
