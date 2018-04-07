@@ -1,5 +1,8 @@
 # ActFramework Starter Support
 
+**1.8.5** 8/Apr/2018
+* move run_dev, run_prod scripts out from act_scripts folder - make it easy work with archetypes
+
 **1.8.4** 8/Apr/2018
 * Add run_dev, run_prod scripts #8
 
