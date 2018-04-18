@@ -1,5 +1,13 @@
 # ActFramework Starter Support
 
+**1.8.7**
+* change package from `zip` to `tar.gz` #9
+* Allow passing parameters to run script via environment variable #10
+* Allow specify heap/perm size via environment variable #11
+
+**1.8.6** 8/Apr/2018
+* move archetype support out to the act-archetype-support project
+
 **1.8.5** 8/Apr/2018
 * move run_dev, run_prod scripts out from act_scripts folder - make it easy work with archetypes
 
@@ -33,4 +41,4 @@
 
 **1.6.0** 3/Jan/2018 
 
-* This first version
+* The first version

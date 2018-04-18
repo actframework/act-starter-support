@@ -7,11 +7,23 @@ CP=$BASE/classes:$BASE/lib/*
 CMD=$0
 DEBUG=0
 DEBUG_PORT=5005
-PROFILE=
-GROUP=
-SYS_PROP=
+PROFILE=$ACT_PROFILE
+GROUP=$ACT_GROUP
+SYS_PROP=$ACT_SYS_PROP
 HELP=0
-JAVA_OPTS="$JAVA_OPTS -server -Xms${vmargs.heap.init} -Xmx${vmargs.heap.max} -XX:MaxPermSize=128M ${vmargs.extended}"
+if [[ ! $JAVA_OPTS = *"-server"* ]]; then
+        JAVA_OPTS="$JAVA_OPTS -server"
+fi
+if [[ ! $JAVA_OPTS = *"-Xms"* ]]; then
+        JAVA_OPTS="$JAVA_OPTS -Xms${vmargs.heap.init}"
+fi
+if [[ ! $JAVA_OPTS = *"-Xmx"* ]]; then
+        JAVA_OPTS="$JAVA_OPTS -Xmx${vmargs.heap.max}"
+fi
+if [[ ! $JAVA_OPTS = *"-XX:MaxPermSize"* ]]; then
+        JAVA_OPTS="$JAVA_OPTS -XX:MaxPermSize=128M"
+fi
+# JAVA_OPTS="$JAVA_OPTS -server -Xms${vmargs.heap.init} -Xmx${vmargs.heap.max} -XX:MaxPermSize=128M ${vmargs.extended}"
 # As long as there is at least one more argument, keep looping
 while [[ $# -gt 0 ]]; do
     key="$1"
