@@ -1,11 +1,10 @@
 # ActFramework Starter Support
 
-**1.8.7**
+**1.8.6** 8/Apr/2018
+* Add Dockerimage resource file - to capture the build docker image repo path
 * change package from `zip` to `tar.gz` #9
 * Allow passing parameters to run script via environment variable #10
 * Allow specify heap/perm size via environment variable #11
-
-**1.8.6** 8/Apr/2018
 * move archetype support out to the act-archetype-support project
 
 **1.8.5** 8/Apr/2018
