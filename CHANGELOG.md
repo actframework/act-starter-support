@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.8** 30/Oct/2018
+* update to act-1.8.8
+* include `.act.class-registry` and `.act.plugins` into build package
+
 **1.8.6** 8/Apr/2018
 * Add Dockerimage resource file - to capture the build docker image repo path
 * change package from `zip` to `tar.gz` #9

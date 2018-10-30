@@ -34,6 +34,8 @@ under the License.
       <outputDirectory>.</outputDirectory>
       <includes>
         <include>README.md</include>
+        <include>.act.class-registry</include>
+        <include>.act.plugins</include>
       </includes>
     </fileSet>
     <fileSet>
