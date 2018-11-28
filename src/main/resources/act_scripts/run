@@ -23,6 +23,9 @@ fi
 if [[ ! $JAVA_OPTS = *"-XX:MaxPermSize"* ]]; then
         JAVA_OPTS="$JAVA_OPTS -XX:MaxPermSize=128M"
 fi
+if [[ ! $JAVA_OPTS = *"-XX:+HeapDumpOnOutOfMemoryError"* ]]; then
+        JAVA_OPTS="$JAVA_OPTS -XX:+HeapDumpOnOutOfMemoryError"
+fi
 # JAVA_OPTS="$JAVA_OPTS -server -Xms${vmargs.heap.init} -Xmx${vmargs.heap.max} -XX:MaxPermSize=128M ${vmargs.extended}"
 # As long as there is at least one more argument, keep looping
 while [[ $# -gt 0 ]]; do

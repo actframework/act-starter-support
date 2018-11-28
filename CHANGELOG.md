@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.14** 28/Nov/2018
+* update to act-1.8.14
+* Add `-XX:+HeapDumpOnOutOfMemoryError` in run script #13
+
 **1.8.8** 30/Oct/2018
 * update to act-1.8.8
 * include `.act.class-registry` and `.act.plugins` into build package
