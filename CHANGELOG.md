@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.16** 09/Dec/2018
+* update to act-1.8.16
+* Add `-Djava.awt.headless=true` to run script #14
+
 **1.8.14** 28/Nov/2018
 * update to act-1.8.14
 * Add `-XX:+HeapDumpOnOutOfMemoryError` in run script #13
