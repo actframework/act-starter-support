@@ -36,6 +36,7 @@ under the License.
         <include>README.md</include>
         <include>.act.class-registry</include>
         <include>.act.plugins</include>
+        <include>.act.api-book</include>
       </includes>
     </fileSet>
     <fileSet>

@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.17**
+* update to act-1.8.17
+* Add `.act.api-book` into fileSet include list
+
 **1.8.16** 09/Dec/2018
 * update to act-1.8.16
 * Add `-Djava.awt.headless=true` to run script #14
