@@ -43,21 +43,11 @@ under the License.
       <directory>${project.build.directory}</directory>
       <outputDirectory>.</outputDirectory>
       <includes>
-        <include>classes/**/*.properties</include>
-        <include>classes/**/*.conf</include>
-        <include>classes/**/*.json</include>
-        <include>classes/**/*.yaml</include>
-        <include>classes/**/*.yml</include>
-        <include>classes/**/*.xml</include>
-        <include>classes/conf/**</include>
-        <include>classes/asset/**</include>
-        <include>classes/beetl/**</include>
-        <include>classes/freemarker/**</include>
-        <include>classes/mustache/**</include>
-        <include>classes/rythm/**</include>
-        <include>classes/thymeleaf/**</include>
-        <include>classes/velocity/**</include>
+        <include>classes/**</include>
       </includes>
+      <excludes>
+        <exclude>classes/**/*.class</exclude>
+      </excludes>
     </fileSet>
     <fileSet>
       <directory>${project.build.directory}/classes/act_scripts</directory>

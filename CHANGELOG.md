@@ -1,5 +1,9 @@
 # ActFramework Starter Support
 
+**1.8.18**
+* update to act-1.8.18
+* package missed files in resources folder #15
+
 **1.8.17** 23/Dec/2018
 * update to act-1.8.17
 * Add `.act.api-book` into fileSet include list
