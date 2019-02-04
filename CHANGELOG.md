@@ -1,6 +1,6 @@
 # ActFramework Starter Support
 
-**1.8.18**
+**1.8.18** 04/Feb.2018
 * update to act-1.8.18
 * package missed files in resources folder #15
 
