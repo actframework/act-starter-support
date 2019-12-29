@@ -1,5 +1,5 @@
 FROM actframework/java-8
-ENV APPHOME=/var/act-app
+ENV APPHOME=/var/act-app/
 RUN mkdir -p $APPHOME
 WORKDIR $APPHOME
 ADD *.tar.gz $APPHOME
