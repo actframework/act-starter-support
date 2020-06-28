@@ -20,9 +20,6 @@ fi
 if [[ ! $JAVA_OPTS = *"-Xmx"* ]]; then
         JAVA_OPTS="$JAVA_OPTS -Xmx${vmargs.heap.max}"
 fi
-if [[ ! $JAVA_OPTS = *"-XX:MaxPermSize"* ]]; then
-        JAVA_OPTS="$JAVA_OPTS -XX:MaxPermSize=128M"
-fi
 if [[ ! $JAVA_OPTS = *"-XX:+HeapDumpOnOutOfMemoryError"* ]]; then
         JAVA_OPTS="$JAVA_OPTS -XX:+HeapDumpOnOutOfMemoryError"
 fi
